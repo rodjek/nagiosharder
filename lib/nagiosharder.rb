@@ -291,7 +291,7 @@ class NagiosHarder
         request[:cmd_typ] = COMMANDS[:disable_service_notifications]
         request[:service] = service
       else
-        request[:cmd_typ] = COMMANDS[:disable_host_service_checks]
+        request[:cmd_typ] = COMMANDS[:disable_host_service_notifications]
         request[:ahas] = true
       end
 
